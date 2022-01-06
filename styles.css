@@ -1,15 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: #525659;
     font-family: 'Frank Ruhl Libre', serif;
 }
-.main-container{width: 80%;
+.main-container{
+    width: 80%;
     margin: 0 auto;
-    height: 100vh;
     background-color: white;
+    padding: 0 10%;
 }
 .flexible{
     display: flex;
@@ -18,15 +20,86 @@ body{
     padding-top: 30px;
 }
 .top-container div{
-    width: 50%;
+    width: 46%;
+    margin: 5% 10% 0 0;
 }
 .top-container img{
-width: 30%;
+    width: 44%;
 }
 .top-container h1{
     font-size: 50px;
-    border-left: orangered solid 5px;
+    border-left: orangered solid 2px;
+    padding: 0 10px;
 }
-.top-container span{
-    color: green;
+p{
+    padding: 20px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(73, 70, 70);
+    font-family: 'Poppins', sans-serif;
+}
+h1 span{
+    color: #FFAD5A;
+}
+button{
+    padding: 10px 50px;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+    color:white;
+}
+.my-mission-container h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 60px 0 30px 0;
+}
+.my-mission-container img{
+    width: 50%;
+}
+.box{
+    width: 30%;
+    height: 270px;
+    padding: 2%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.mission{
+    background-color: #EDF5F6;
+}
+.vision{
+    background-color: #FBEAEA;
+    margin:0 7%;
+}
+.goals{
+    background-color: #FFF4D6;
+}
+.coding-container{
+    margin: 50px 0;
+}
+.coding-container img{
+    width: 40%;
+    margin-right: 7%;
+}
+.text-container{
+    height: 80%;
+    margin: auto 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 33px;
+}
+.about-community img{
+    width: 40%;
+    margin-left: 7%;
+}
+.my-choice img{
+    width: 50%;
+    margin-top: 50px;
+    margin-right: 7%;
+}
+footer{
+    background-color: #0B0D17;
+    height: 100px;
+    font-size: 18px;
+    font-family: 'Italianno', cursive;
+    text-align: center;
+    color: white;
 }
