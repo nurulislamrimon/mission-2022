@@ -62,6 +62,7 @@ button{
     height: 270px;
     padding: 2%;
     font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: inset rgb(124, 121, 121) -5px -5px 10px 2px ,rgb(88, 85, 85) -5px -5px 10px 1px ;    border-radius: 15px;
 }
 .mission{
     background-color: #EDF5F6;
@@ -84,22 +85,30 @@ button{
     height: 80%;
     margin: auto 0;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 33px;
+    font-size: 30px;
 }
 .about-community img{
     width: 40%;
     margin-left: 7%;
 }
+.my-choice{
+    padding-bottom: 7%;
+}
 .my-choice img{
     width: 50%;
     margin-top: 50px;
     margin-right: 7%;
+    border-radius: 10%;
+}
+.my-choice .text-container span{
+    color: #FFAD5A;
 }
 footer{
     background-color: #0B0D17;
     height: 100px;
     font-size: 18px;
-    font-family: 'Italianno', cursive;
-    text-align: center;
+    font-family: 'Lobster Two', cursive;    text-align: center;
     color: white;
+    line-height: 20px;
+    padding: 20px 0;
 }
